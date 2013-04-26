@@ -1,0 +1,12 @@
+{
+	"title": "Tiny Twitter",
+	"version": "0.3.2",	
+	"type": "web",	
+	"main": "index.html",	
+	"id": "com.tinytwitter.app",
+	"vendor": "Tiny Twitter",
+	"icon": "images/icon-64x64.png",
+  "theme": "light",
+  "noWindow": "true",
+	"logLevel": 0
+}

@@ -1,0 +1,76 @@
+[
+    {"source": "app\/assistants\/app-assistant.js"},
+    {"source": "app\/assistants\/stage-assistant.js"},
+    {"source": "app\/assistants\/dashboard-assistant.js"},
+    {"source": "app\/support_info.js"},
+    {"source": "app\/extensions\/formatters.js"},
+    {"source": "app\/extensions\/url-shortener.js"},
+    {"source": "app\/extensions\/md5.js"},
+    {"source": "app\/models\/twitter-resource.js"},
+    {"source": "app\/models\/user.js"},
+    {"source": "app\/models\/advertisement.js"},
+    {
+        "source": "app\/assistants\/account-dialog-assistant.js",
+        "scenes": "account"
+    },
+    {
+        "source": "app\/assistants\/account-assistant.js",
+        "scenes": "account"
+    },
+    {
+        "source": "app\/assistants\/timeline-assistant.js",
+        "scenes": "timeline"
+    },
+    {
+        "source": "app\/assistants\/status-assistant.js",
+        "scenes": "status"
+    },
+    {
+        "source": "app\/assistants\/profile-assistant.js",
+        "scenes": "profile"
+    },
+    {
+        "source": "app\/assistants\/inbox-assistant.js",
+        "scenes": "inbox"
+    },
+    {
+        "source": "app\/assistants\/mention-assistant.js",
+        "scenes": "mention"
+    },
+    {
+        "source": "app\/assistants\/message-assistant.js",
+        "scenes": "message"
+    },
+    {
+        "source": "app\/assistants\/status-list-assistant.js",
+        "scenes": "status-list"
+    },
+    {
+        "source": "app\/assistants\/followers-assistant.js",
+        "scenes": "followers"
+    },
+    {
+        "source": "app\/assistants\/friends-assistant.js",
+        "scenes": "friends"
+    },
+    {
+        "source": "app\/assistants\/preferences-assistant.js",
+        "scenes": "preferences"
+    },
+    {
+        "source": "app\/assistants\/support-assistant.js",
+        "scenes": "support"
+    },
+    {
+        "source": "app\/assistants\/favorites-assistant.js",
+        "scenes": "favorites"
+    },
+    {
+        "source": "app\/assistants\/tweet-assistant.js",
+        "scenes": "tweet"
+    },
+    {
+        "source": "app\/assistants\/new-message-assistant.js",
+        "scenes": "new-message"
+    }
+]

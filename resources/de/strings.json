@@ -1,0 +1,38 @@
+{
+	"Add An Account" : "Konto hinzufügen",
+	"Username" : "Benutzername",
+	"Password" : "Passwort",
+	"Login" : "Anmelden",
+	
+	"Timeline" : "Timeline",
+	"Mentions" : "Erwähnungen",
+	"Messages" : "Botschaften",
+	"Inbox" : "Erhalten",
+	"Sent" : "Gesendet",
+
+	"Public Reply" : "Öffentliche Antwort",
+	"Direct Message" : "Private Botschaft",
+	
+	"Yes" : "Ja",
+	"No" : "Nein",
+
+	"Followers" : "Anhänger",
+	"Following" : "Freunde",
+	"Tweets" : "Tweets",
+	"Favorites" : "Favoriten",
+	
+	"followers.count" : "Anhänger  ( #{count} )",
+	"following.count" : "Freunde  ( #{count} )",
+	"tweet.count" : "Tweets  (#{count} )",
+	"favorites.count" : "Favoriten (  #{count} )",
+	
+	"header.tweet" : "Neuer Tweet <br /><span style='font-size:80%;'>von @#{username}</span>",
+	"What are you doing?" : "Was tust Du?",
+	"Clear Text" : "Text löschen",
+	"Select All" : "Text markieren",
+	"Shorten Url" : "Url verkürzen",
+	
+	"Recipient" : "Empfänger",
+	"Message Text" : "Botschaftstext",
+	
+}

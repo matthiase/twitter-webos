@@ -1,0 +1,378 @@
+.palm-page-header .header-icon.tinytwitter { 
+	background: url(../images/icon-32x32.png) no-repeat; 
+	font-weight: bold; 
+} 
+
+.palm-dashboard-icon { 
+  background: url(../images/icon-48x48.png) no-repeat;
+}
+
+.customHeader #viewSelector {
+  background: url(../images/icon-32x32.png) no-repeat;
+	padding-left: 40px;
+	padding-bottom: 4px;
+}
+
+a {
+  text-decoration:none;
+}
+
+
+/*===========================================================================
+ Help Scene
+===========================================================================*/
+.img_icon {
+	position:absolute;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../images/icon-32x32.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;	
+}
+.list_scene {
+	position:relative;
+	left:48px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_email {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-email.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_phone {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-phone.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_web {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-web.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+
+
+/*===========================================================================
+ Status List Scene
+===========================================================================*/
+div.statusList .header {
+  font-size: 80%;
+  margin-left: 20px;
+  min-height:44px;
+}
+
+
+/*===========================================================================
+ Profile Scene
+===========================================================================*/
+div.profile .header {
+  font-size: 80%;
+  margin-left: 20px;
+  min-height:44px;
+}
+
+div.profile .header .location {
+	font-size:80%;
+}
+
+div.profile .description {
+  margin:12px 0 8px 0;
+}
+
+
+/*===========================================================================
+ My Profile Scene
+===========================================================================*/
+div.myProfile  {
+  float:left;
+  min-height:44px;
+  width:100%;
+}
+
+div.myProfile img {
+  float:left;
+  height:48px; 
+  width:48px; 
+  margin-left: 15px;
+  border:solid 1px #666; 
+  opacity:.9;
+}
+
+div.myProfile .info {
+  float:left;
+  margin-left: 15px;
+  font-size: 80%;
+}
+
+div.myProfile .location {
+	font-size:80%;
+}
+
+div.myProfile .description {
+  margin:12px 0 8px 0;
+}
+
+/*===========================================================================
+ Status Scene
+===========================================================================*/
+div.status .header {
+  font-size: 80%;
+  margin-left: 20px;
+  min-height:44px;
+}
+
+div.status .header a {
+  font-size:80%;
+  text-decoration:none;
+}
+
+div.status .text {
+  margin:12px 0 8px 0;
+}
+
+div.status .metadata {
+  font-size:80%;
+  color:#666;
+}
+
+div.status .metadata a {
+	text-decoration:none;
+}
+
+
+/*===========================================================================
+ Message Scene
+===========================================================================*/
+div.message .header {
+  background: url(../images/menu-icon-reply.png) top right no-repeat;
+  font-size: 80%;
+  margin-left: 20px; 
+  min-height:44px;
+}
+
+div.message .header a {
+  text-decoration:none;
+}
+
+div.message .header .createdAt {
+  font-size:80%;
+}
+
+div.message .text{
+  margin:12px 0 8px 0;
+}
+
+div.message .metadata {
+  font-size:80%;
+  color:#666;
+}
+
+
+
+
+/*===========================================================================*/
+div.customHeader {
+	position: fixed;
+	-webkit-palm-mouse-target: ignore;
+  background: #ccc;
+  z-index: 11001;
+  width: 100%;
+}
+
+div.customHeader .text {
+  padding: 10px 15px;
+	color: #444; 
+	text-shadow: #f2f2f2 0px 1px 0px;
+}
+
+/*===========================================================================*/
+.replyIcon {
+  
+}
+
+.sendIcon {
+  background: url(../images/menu-icon-conversation.png) top right no-repeat;
+}
+
+/*===========================================================================*/
+div.messagelist { 
+  padding:0 10px;  
+}
+
+div.messagelist .item {
+	min-height: 64px;
+	position:relative;
+	clear:both;
+	overflow:hidden;
+	padding:6px;
+}
+
+div.messagelist .item .profile-image {
+	float: left;
+	width: 48px;
+	text-align:center;
+	margin-top:4px 3px 0 3px;
+}
+
+div.messagelist .item .profile-image img {
+	float:left;
+	width:48px;
+	height:48px;
+	border:1px solid #666;
+	opacity:.9;
+}
+
+div.messagelist .item .content {
+  font-size:14px;  
+	margin-left:64px;
+  margin-right: 15px;  
+  vertical-align: top;
+}
+
+div.messagelist .item .username {
+	font-weight: bold;
+}
+
+div.messagelist .item .text {
+	font-size: 90%;
+  font-weight: normal;  
+  color:#444;
+}
+
+div.messagelist .item .metadata {
+	margin-top: 3px;
+	font-size: 80%;
+	color: #666;
+}
+
+
+/*===========================================================================*/
+div.timelineItem {
+	min-height: 64px;
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	padding: 6px;
+}
+
+div.timelineItem a {
+	color:#444;
+	text-decoration:none;
+}
+
+div.timelineItem .profile-image {
+	float: left;
+	width: 48px;
+	text-align:center;
+	margin-top:4px;
+	margin-left:3px;	
+}
+
+div.timelineItem .profile-image img {
+	float: left;
+	width: 48px;
+	height: 48px;
+	border:1px solid #666;
+	opacity:.9;	
+}
+
+div.timelineItem .content {
+	margin-left: 64px;
+	margin-right: 10px;
+	font-size: 14px;
+  vertical-align: top;
+}
+
+div.timelineItem .metadata {
+	float:left;
+	width:100%;
+	margin-top:8px;
+	margin-bottom: 3px;
+}
+
+div.timelineItem .metadata .username {
+	float: left;
+	font-weight: bold;
+}
+
+div.timelineItem .metadata .timestamp {
+	float: right;
+	padding-top: 3px;
+	font-size: 80%;
+	color: #666;
+}
+
+div.timelineItem .content .text {
+	font-size: 90%;
+  font-weight: normal;  
+  color:#444;
+}
+
+
+/*===========================================================================*/
+div.userlist {
+  padding:0 10px;
+}
+
+div.userlist .item {
+	min-height: 28px;
+	position:relative;
+	clear:both;
+	overflow:hidden;
+	padding:6px;
+}
+
+div.userlist .profile-image {
+	float: left;
+	width: 28px;
+	text-align:center;
+	margin-top:4px 3px 0 3px;
+}
+
+div.userlist div.profile-image img {
+	float:left;
+	width:28px;
+	height:28px;
+	border:1px solid #666;
+	opacity:.9;
+}
+
+div.userlist .item .content {
+  font-size:14px;  
+	margin-left:40px;
+  margin-right:10px;
+  vertical-align: top;
+}
+
+div.userlist .item  .username {
+	font-weight: bold;
+  margin-right:2px;
+}
+
+div.userlist .item  .text {
+	font-size: 90%;
+  font-weight: normal;  
+  color:#444;
+}

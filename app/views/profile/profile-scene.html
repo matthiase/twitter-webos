@@ -1,0 +1,42 @@
+<div class="palm-page-header">
+  <div id="profileImage" class="header-icon" style="height:48px; width:48px; border:solid 1px #666; opacity:.9;"></div>
+  <div class="header-text profile">  
+    <div id="profileHeader" class="header">    
+      <div id="userName"></div>
+      <div id="location" class="location"></div>
+    </div>    
+  </div>
+</div>
+
+<div id="scrim" class="palm-scrim" style="display:none;">
+  <div id="spinner" x-mojo-element="Spinner"></div>
+</div>
+
+<div class="palm-body-text profile">
+  <div id="description" class="description"></div>
+</div>
+
+<div id="profileActions" class="palm-group unlabeled" style="display:none;">
+	<div class="palm-list">
+		<div class="palm-row first" x-mojo-tap-highlight="momentary">
+		  <div class="palm-row-wrapper">
+				<div id="followingToggle" x-mojo-element="ToggleButton"></div>
+        <div x-mojo-element="Spinner" name="followingSpinner"></div>
+				<div class="label left">Following</div>
+		  </div>
+		</div>
+		<div class="palm-row last" x-mojo-tap-highlight="momentary">
+		  <div class="palm-row-wrapper">
+				<div id="blockingToggle" x-mojo-element="ToggleButton"></div>
+        <div x-mojo-element="Spinner" name="blockingSpinner"></div>
+				<div class="label left">Blocking</div>
+		  </div>
+		</div>				
+	</div>
+</div>
+
+
+<div id="profileList" x-mojo-element="List"></div>
+
+
+
